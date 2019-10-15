@@ -10,13 +10,11 @@
 SFML/Graphics.hpp
 -
 
-/home/tristochi/Desktop/C++_Projects/Pong/Bat.cpp
-Bat.h
-/home/tristochi/Desktop/C++_Projects/Pong/Bat.h
-
 /home/tristochi/Desktop/C++_Projects/Pong/Bat.h
 SFML/Graphics.hpp
 -
+
+/home/tristochi/Desktop/C++_Projects/Pong/Constants.h
 
 /home/tristochi/Desktop/C++_Projects/Pong/main.cpp
 Bat.h
@@ -29,4 +27,6 @@ cstdlib
 -
 SFML/Graphics.hpp
 -
+Constants.h
+/home/tristochi/Desktop/C++_Projects/Pong/Constants.h
 

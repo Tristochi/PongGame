@@ -2,6 +2,7 @@
 // Created by tristochi on 10/11/19.
 //
 
+#include "Constants.h"
 #include "Ball.h"
 
 Ball::Ball(float startX, float startY)
@@ -42,13 +43,13 @@ void Ball::reboundBat()
 void Ball::hitBottom()
 {
     yVelocity = -yVelocity;
-    position.y = 758;
+    position.y = windowHeight - 10;
 }
 
 void Ball::score()
 {
-    position.y = 384;
-    position.x = 512;
+    position.y = windowWidth / 2;
+    position.x = windowHeight / 2;
 }
 
 

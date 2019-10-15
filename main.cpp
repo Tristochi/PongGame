@@ -3,19 +3,19 @@
 #include <sstream>
 #include <cstdlib>
 #include <SFML/Graphics.hpp>
+#include "Constants.h"
 
 using namespace sf;
 
 int main()
 {
     Clock clock;
-    int windowWidth = 1024;
-    int windowHeight = 768;
     RenderWindow window(VideoMode(windowWidth, windowHeight), "Pong");
     window.setFramerateLimit(122);
     int score = 0;
 
     Bat bat(10, windowHeight / 2);
+    Bat bat2(windowWidth - 20, windowHeight /2);
     Ball ball(windowWidth / 2, windowHeight / 2);
 
     Text hud;
@@ -45,6 +45,7 @@ int main()
         {
             bat.moveUp();
         }
+
         else if (Keyboard::isKeyPressed(Keyboard::Down))
         {
             bat.moveDown();
@@ -52,6 +53,15 @@ int main()
         else if(Keyboard::isKeyPressed(sf::Keyboard::Escape))
         {
             window.close();
+        }
+
+        else if(Keyboard::isKeyPressed(Keyboard::W))
+        {
+            bat2.moveUp();
+        }
+        else if(Keyboard::isKeyPressed(Keyboard::S))
+        {
+            bat2.moveDown();
         }
 
         // Ball hits top or bottom
@@ -74,8 +84,14 @@ int main()
         {
             ball.reboundBat();
         }
+        else if(ball.getPosition().intersects(bat2.getPosition()))
+        {
+            ball.reboundBat();
+        }
+
         ball.update();
         bat.update();
+        bat2.update();
 
         std::stringstream ss;
         ss << "Score: " << score;
@@ -84,6 +100,7 @@ int main()
 
         window.clear(Color(26, 128, 182, 255));
         window.draw(bat.getShape());
+        window.draw(bat2.getShape());
         window.draw(ball.getShape());
         window.draw(hud);
         window.display();

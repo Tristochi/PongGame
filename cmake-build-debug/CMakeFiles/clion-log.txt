@@ -1,4 +1,5 @@
 /home/tristochi/CLION/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/tristochi/Desktop/C++_Projects/Pong
+-- Found SFML 2.5.1 in /usr/lib/x86_64-linux-gnu/cmake/SFML
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/tristochi/Desktop/C++_Projects/Pong/cmake-build-debug

@@ -3,11 +3,13 @@
 
 CMakeFiles/Pong.dir/Ball.cpp.o: ../Ball.cpp
 CMakeFiles/Pong.dir/Ball.cpp.o: ../Ball.h
+CMakeFiles/Pong.dir/Ball.cpp.o: ../Constants.h
 
 CMakeFiles/Pong.dir/Bat.cpp.o: ../Bat.cpp
 CMakeFiles/Pong.dir/Bat.cpp.o: ../Bat.h
 
 CMakeFiles/Pong.dir/main.cpp.o: ../Ball.h
 CMakeFiles/Pong.dir/main.cpp.o: ../Bat.h
+CMakeFiles/Pong.dir/main.cpp.o: ../Constants.h
 CMakeFiles/Pong.dir/main.cpp.o: ../main.cpp
 

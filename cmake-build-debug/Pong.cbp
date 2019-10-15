@@ -96,6 +96,9 @@
 		<Unit filename="/home/tristochi/Desktop/C++_Projects/Pong/Bat.h">
 			<Option target="Pong"/>
 		</Unit>
+		<Unit filename="/home/tristochi/Desktop/C++_Projects/Pong/Constants.h">
+			<Option target="Pong"/>
+		</Unit>
 		<Unit filename="/home/tristochi/Desktop/C++_Projects/Pong/main.cpp">
 			<Option target="Pong"/>
 		</Unit>
