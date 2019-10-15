@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tristochi/Desktop/C++_Projects/Pong/Ball.h
+SFML/Graphics.hpp
+-
+
+/home/tristochi/Desktop/C++_Projects/Pong/Bat.cpp
+Bat.h
+/home/tristochi/Desktop/C++_Projects/Pong/Bat.h
+
+/home/tristochi/Desktop/C++_Projects/Pong/Bat.h
+SFML/Graphics.hpp
+-
+
+/home/tristochi/Desktop/C++_Projects/Pong/main.cpp
+Bat.h
+/home/tristochi/Desktop/C++_Projects/Pong/Bat.h
+Ball.h
+/home/tristochi/Desktop/C++_Projects/Pong/Ball.h
+sstream
+-
+cstdlib
+-
+SFML/Graphics.hpp
+-
+
