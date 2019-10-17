@@ -3,6 +3,7 @@
 //
 
 #include "Bat.h"
+#include "Constants.h"
 
 // This is a constructor
 Bat::Bat(float startX, float startY)
@@ -32,6 +33,16 @@ void Bat::moveUp()
 void Bat::moveDown()
 {
     position.y += batSpeed;
+}
+
+void Bat::topBoundary()
+{
+	position.y = 0;
+}
+
+void Bat::bottomBoundary()
+{
+	position.y = windowHeight - 50;
 }
 
 void Bat::update()

@@ -28,6 +28,8 @@ public:
 
     void moveUp();
     void moveDown();
+	void topBoundary();
+	void bottomBoundary();
     void update();
 };
 

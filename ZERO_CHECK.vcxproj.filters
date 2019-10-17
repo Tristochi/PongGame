@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="J:\CPPBOYS\Pong\PongGame\CMakeFiles\7066721a58ce4acefb5e6df40ae15d2e\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F1D2CD43-79F0-370F-8CAC-AFD0E3865935}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

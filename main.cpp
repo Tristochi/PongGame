@@ -41,14 +41,27 @@ int main()
             if (event.type == Event::Closed)
                 window.close();
         }
+		
+		/* Paddle movements */
+
         if(Keyboard::isKeyPressed(Keyboard::Up))
         {
-            bat.moveUp();
+			if (bat.getPosition().top < 0)
+			{
+				bat.topBoundary();
+			}
+
+			bat.moveUp();
         }
 
         else if (Keyboard::isKeyPressed(Keyboard::Down))
         {
-            bat.moveDown();
+			if (bat.getPosition().top + 50 > windowHeight)
+			{
+				bat.bottomBoundary();
+			}
+			
+			bat.moveDown();
         }
         else if(Keyboard::isKeyPressed(sf::Keyboard::Escape))
         {
@@ -57,10 +70,18 @@ int main()
 
         else if(Keyboard::isKeyPressed(Keyboard::W))
         {
+			if (bat2.getPosition().top < 0)
+			{
+				bat2.topBoundary();
+			}
             bat2.moveUp();
         }
         else if(Keyboard::isKeyPressed(Keyboard::S))
         {
+			if (bat2.getPosition().top + 50 > windowHeight)
+			{
+				bat2.bottomBoundary();
+			}
             bat2.moveDown();
         }
 
