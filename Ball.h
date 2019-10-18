@@ -21,7 +21,7 @@ private:
     float yVelocity = .7f;
 
 public:
-    Ball(float startX, float startY);
+    Ball();
 
     FloatRect getPosition();
 

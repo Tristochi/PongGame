@@ -10,6 +10,15 @@
     <ClCompile Include="J:\CPPBOYS\Pong\PongGame\Ball.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerOne.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTwo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="J:\CPPBOYS\Pong\PongGame\Bat.h">
@@ -19,6 +28,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="J:\CPPBOYS\Pong\PongGame\Constants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerOne.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTwo.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

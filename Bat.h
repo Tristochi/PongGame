@@ -20,7 +20,7 @@ private:
     float batSpeed = 4.5f;
 
 public:
-    Bat(float startX, float startY);
+    Bat();
 
     FloatRect getPosition();
 

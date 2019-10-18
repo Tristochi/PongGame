@@ -5,10 +5,10 @@
 #include "Constants.h"
 #include "Ball.h"
 
-Ball::Ball(float startX, float startY)
+Ball::Ball()
 {
-    position.x = startX;
-    position.y = startY;
+    position.x = ballx;
+    position.y = bally;
 
     ballShape.setSize(sf::Vector2f(10,10));
     ballShape.setPosition(position);

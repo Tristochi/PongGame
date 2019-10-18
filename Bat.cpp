@@ -6,11 +6,8 @@
 #include "Constants.h"
 
 // This is a constructor
-Bat::Bat(float startX, float startY)
-{
-    position.x = startX;
-    position.y = startY;
-
+Bat::Bat()
+{    
     batShape.setSize(sf::Vector2f(5, 50));
     batShape.setPosition(position);
 }

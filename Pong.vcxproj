@@ -313,12 +313,18 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="J:\CPPBOYS\Pong\PongGame\main.cpp" />
+    <ClCompile Include="PlayerOne.cpp" />
+    <ClCompile Include="PlayerTwo.cpp" />
+    <ClInclude Include="Game.h" />
     <ClInclude Include="J:\CPPBOYS\Pong\PongGame\Bat.h" />
     <ClCompile Include="J:\CPPBOYS\Pong\PongGame\Bat.cpp" />
     <ClInclude Include="J:\CPPBOYS\Pong\PongGame\Ball.h" />
     <ClCompile Include="J:\CPPBOYS\Pong\PongGame\Ball.cpp" />
     <ClInclude Include="J:\CPPBOYS\Pong\PongGame\Constants.h" />
+    <ClInclude Include="PlayerOne.h" />
+    <ClInclude Include="PlayerTwo.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="J:\CPPBOYS\Pong\PongGame\ZERO_CHECK.vcxproj">
