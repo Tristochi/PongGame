@@ -25,7 +25,6 @@ public:
     FloatRect getPosition();
 
     RectangleShape getShape();
-
     void moveUp();
     void moveDown();
 	void topBoundary();

@@ -24,8 +24,9 @@ private:
 	RenderWindow window;
 	PlayerOne bat;
 	PlayerTwo bat2;
-
+	Text hud;
 	Ball ball;
+	Event event;
 
 
 	void input();
@@ -38,6 +39,8 @@ public:
 
 	// Accesses all private functions
 	void start();
+
+	bool isOpen();
 
 	// Will execute when game is paused
 	void pause();

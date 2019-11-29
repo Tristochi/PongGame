@@ -3,8 +3,8 @@
 
 PlayerTwo::PlayerTwo()
 {
-	position.x = playerOneX;
-	position.y = playerOneY;
+	position.x = (windowWidth - 20);
+	position.y = (windowHeight / 2);
 	batShape.setSize(sf::Vector2f(5, 50));
 	batShape.setPosition(position);
 }
